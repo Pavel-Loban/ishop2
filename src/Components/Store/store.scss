@@ -1,8 +1,17 @@
+.store{
+    display:flex;
+    flex-direction: column;
+}
 .products{
     display: flex;
     flex-wrap: wrap;
 }
 
+.cart-price{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+  }
 
 
 

@@ -12,7 +12,10 @@ function App({products, remove}) {
 
   return (
     <div className="App">
+
+      <div>
       <h1 className={'title'} >Каталог товаров</h1>
+      </div>
     <Store  remove={remove}  products={products}/>
 
 
